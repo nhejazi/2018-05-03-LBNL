@@ -277,6 +277,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="setup">Setup</h2>
 
+{% comment %}
+
 <p>
   To participate in a
   {% if page.carpentry == "swc" %}
@@ -750,6 +752,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+
+{% endcomment %}
 
 {% comment %}
 <div id="vm">
